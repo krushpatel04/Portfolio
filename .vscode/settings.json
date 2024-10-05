@@ -39,4 +39,5 @@
         "addOverride"
     ],
     "java.debug.settings.vmArgs": "-ea"
+
 }
