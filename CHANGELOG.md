@@ -8,42 +8,19 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
-## [2024.08.07]
+## [2024.10.15]
 
 ### Added
 
-- Added `/bin` to `.gitignore`, so binaries are no longer committed
-- Added the TODO tree extensions to `extensions.json`
-- Added the `todo-tree.general.showActivityBarBadge` setting to `settings.json`
-- Added the `todo-tree.tree.showCountsInTree` setting to `settings.json`
-- Added the VSCode PDF extension to `extensions.json`
-- Added `java.debug.settings.vmArgs` setting to enable assertions (i.e., `-ea`)
-- Added information about making branches to all parts of the project
-- Added information about how to update the CHANGELOG to every part of the
-  project
-- Added information about how to make a pull request to every part of the
-  project
+- Created the `WeightTrackerKernel` interface, which defines the core methods for managing exercise data using a map structure.
+- Created the enhanced `WeightTracker` interface, which extends `WeightTrackerKernel` and adds secondary methods such as updating, checking, and retrieving exercise data.
+- Added kernel methods like `addExercise`, `removeExercise`, `hasExercise`, and more to the `WeightTrackerKernel` interface.
+- Added enhanced methods like `updateExercise`, `replaceExerciseData`, and others to the `WeightTracker` interface.
 
 ### Changed
 
-- Updated `settings.json` to format document on save using `editor.formatOnSave`
-  setting
-- Updated `settings.json` to exclude certain files from markdown to PDF
-  generation using `markdown-pdf.convertOnSaveExclude` setting
-- Updated `settings.json` to use latest `java.cleanup.actions` setting
-- Updated `settings.json` to automatically choose line endings using `files.eol`
-  setting
-- Updated `settings.json` to organize imports automatically on save using the
-  `editor.codeActionsOnSave` and `source.organizeImports` settings
-- Changed the component brainstorming assignment to ask a few clarifying
-  questions
-- Changed the component brainstorming example from `Point3D` to `NaturalNumber`
-  to avoid the getter/setter trend
-- Updated assignment feedback sections to include a link to a survey that
-  I'll actually review
-- Updated README to include step about using template repo
-- Updated part 3 rubric to include a hierarchy diagram
-- Updated part 6 rubric to account for overall polish
+- Updated project structure to include the weight tracking app components.
+- Updated `settings.json` to ensure package names follow correct structure and to prevent package mismatch issues.
 
 ### Fixed
 
