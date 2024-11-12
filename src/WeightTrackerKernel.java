@@ -76,7 +76,7 @@ public interface WeightTrackerKernel
      * @requires exercise is in DOMAIN(this)
      * @ensures (exercise, data) is in this
      */
-    Sequence<Integer> value(String exercise);
+    Sequence<Integer> getData(String exercise);
 
     /**
      * Reports whether there is a pair in {@code this} whose first component is
